@@ -1,1 +1,1 @@
-Here is my vimrc, which use material theme!
+Here is my vimrc with material theme!
