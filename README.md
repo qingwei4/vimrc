@@ -9,5 +9,5 @@ How to use
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
-3. Open vim then use ```so %``` ```PlugInstall```
+3. Open vim then use ```:so %``` ```:PlugInstall```
 
