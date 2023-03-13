@@ -5,6 +5,8 @@ set shiftwidth=4
 set incsearch
 inoremap {<CR> {<CR>}<Esc>ko
 inoremap ( ()<Esc>i
+inoremap [ []<Esc>i
+inoremap < <><Esc>i
 filetype indent on
 call plug#begin('~/.vim/plugged')
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
