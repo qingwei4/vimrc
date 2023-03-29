@@ -14,9 +14,10 @@ set nocompatible
 call plug#begin('~/.vim/plugged')
 Plug 'joshdick/onedark.vim', { 'branch': 'main' }
 Plug 'sheerun/vim-polyglot'
+Plug 'preservim/nerdtree'
 call plug#end()
 
-
+autocmd VimEnter * NERDTree
 
 syntax on
 colorscheme onedark
